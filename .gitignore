@@ -1,7 +1,6 @@
 .vs/
-bin/
-bin-int/
-JSON/
+/bin
+/bin-int
 
 *.vcxproj*
 *.sln
