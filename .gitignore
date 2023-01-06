@@ -1,5 +1,9 @@
+.vs/
 bin/
 bin-int/
-.vs/
+JSON/
 
-*.user
+*.vcxproj*
+*.sln
+
+GenerateProjects.bat
