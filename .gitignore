@@ -3,8 +3,8 @@
 /bin-int
 /JSON
 
-Hazel/**/bin
-Hazel/**/bin-int
+/Hazel/**/bin
+/Hazel/**/bin-int
 
 *.vcxproj*
 *.sln
