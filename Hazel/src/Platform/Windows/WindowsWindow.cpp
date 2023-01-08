@@ -31,8 +31,8 @@ namespace Hazel {
 
 	void WindowsWindow::OnUpdate()
 	{
-		glfwPollEvents();
 		glfwSwapBuffers(m_Window);
+		glfwPollEvents();
 	}
 
 	void WindowsWindow::SetVSync(bool enabled)
@@ -150,7 +150,7 @@ namespace Hazel {
 
 		 MouseMovedEvent event((float)xPos, (float)yPos);
 		 data.EventCallback(event);
-			 });
+			 }); 
 	}
 
 	void WindowsWindow::ShutDown()
