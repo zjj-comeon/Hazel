@@ -9,4 +9,4 @@
 *.vcxproj*
 *.sln
 
-GenerateProjects.bat
+*.bat
